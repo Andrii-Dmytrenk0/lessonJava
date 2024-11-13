@@ -9,6 +9,7 @@ public class Lesson23 {
         StringBuilder sb = new StringBuilder("Hello");
         System.out.println(sb.toString());
         sb.append(" my").append(" friend");
-        System.out.println(sb.toString());
+        System.out.println(sb.toString());System.out.printf("String %.2f \n", 532.66576);
+
     }
 }
