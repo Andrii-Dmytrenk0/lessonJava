@@ -8,6 +8,7 @@ public class Lesson20 {
         h1.printNumberOfPeople();
         h2.printNumberOfPeople();
         h3.printNumberOfPeople();
+        System.out.println(h1);
     }
 }
 
@@ -31,4 +32,7 @@ class HumanMan {
         System.out.println("Number of people is "+countPeople);
     }
 
+    public String toString(){
+        return name+","+age;
+    }
 }
